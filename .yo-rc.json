@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "italoTimefy",
+    "packageName": "ag.italo.timefy",
+    "packageFolder": "ag/italo/timefy",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "pt-br",
+    "languages": [
+      "en",
+      "fr",
+      "es",
+      "pt-br"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.4.0",
+    "jwtSecretKey": "ZmY5MTI1MzVmYWI3NTlhNTkxMmM3Zjc4Y2UzN2I0MTQ4ZmFkNTg0NDA3ZTBkMzcyM2NhZTE0M2I1ZTFkNmNiZmY1MTEzZmU1MGEyMTc4YmZiNTY0ZDg4Mjc1YTY1NjYzOTJmYTVkMjBmYjAwNDY2YmY5OTVkNDUyMTE3Y2E0ZjA="
+  },
+  "git-provider": "GitHub",
+  "git-company": "italotech",
+  "repository-name": "timefy"
+}
